@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Dashboard</title>
+    <link rel="shortcut icon" href="./images/logo.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo" title="Mercado Escolar">
+    <a href="/admin.html">       <img src="./images/logo.png" alt=""> 
+        </div>
+        <div class="navbar">
+            <a href="#" class="active">
+                <span class="material-icons-sharp">home</span>
+                <h3>Home</h3>
+            </a>
+            <a href="password.html">
+                <span class="material-icons-sharp">password</span>
+                <h3>Change Password</h3>
+            </a>
+            
+            <a href="#">
+                <span class="material-icons-sharp" onclick="">logout</span>
+                <h3>Logout</h3>
+            </a>
+        </div>
+        <div id="profile-btn">
+            <span class="material-icons-sharp">person</span>
+        </div>
+        <div class="theme-toggler">
+            <span class="material-icons-sharp active">light_mode</span>
+            <span class="material-icons-sharp">dark_mode</span>
+        </div>
+        
+    </header>
+    <div class="container">
+        <aside>
+            <div class="profile">
+                <div class="top">
+                    <div class="profile-photo">
+                        <img src="./images/utalogo.png" alt="">
+                    </div>
+                    <div class="info">
+                        <p>Hey, <b>UTA</b> </p>
+                        <small class="text-muted">2345657</small>
+                    </div>
+                </div>
+                <div class="about">
+                    <h5>University Name</h5>
+                    <p>University os Texas at Arlington</p>
+                    <h5>DOB</h5>
+                    <p>29-Feb-2020</p>
+                    <h5>Contact</h5>
+                    <p>1234567890</p>
+                    <h5>Email</h5>
+                    <p>admin@uta.edu</p>
+                    <h5>Address</h5>
+                    <p>Arlington, Texas</p>
+                </div>
+            </div>
+        </aside>
+
+        <main>
+            <div id="main">
+ 
+                 <a href="#my_popup" class="btn">Manage Student Dept </a>
+                    <a id="my_popup" href="#" class="popup"></a>
+                    <div class="popup">
+                        <div class="change-password-container">
+                            <form action="">
+                                <h2>Add New Department</h2>
+                                <p class="text-muted">To add a new department</p>
+                                <div class="box">
+                                    <label>Name : </label>
+                                    <input type="text" id="pname">
+                                </div>
+        
+                                <div class="box">
+                                    <label> Description :  </label>  
+                                    <textarea value="description">
+                                    </textarea>
+                                </div>
+                                <div class="button">
+                                    <input type="submit" value="Save" class="btn">
+                                    <a class="close x" href="#">x</a>
+                                    <a class="close word" href="#">Close</a>
+                                </div>
+                        </form>
+                    </div>    
+                    </div>
+              </div>
+              <br/>
+            
+            
+             <div class="subjects">
+                <div class="net">
+                    <span class="material-icons-sharp">book</span>
+                    <h3>Department of Nursing</h3>
+                    <img src="./images/dept2.webp" style="height:auto;max-width:100%;border:none;display:block;" alt="">
+                    <div class="button">
+                        <input type="submit" value="View Students" class="btn">
+                        <input type="submit" value="Delete" class="btn">
+                    </div>
+                </div>
+                <div class="net">
+                    <span class="material-icons-sharp">book</span>
+                    <h3>Department of Political Science</h3>
+                    <img src="./images/dept.jpg" style="height:auto;max-width:100%;border:none;display:block;" alt="">
+                    <div class="button">
+                        <input type="submit" value="View Students" class="btn">
+                        <input type="submit" value="Delete" class="btn">
+                    </div>
+                </div>
+                
+                <div class="net">
+                    <span class="material-icons-sharp">book</span>
+                    <h3>Department of Engineering</h3>
+                    <img src="./images/dept1.jpg" style="height:auto;max-width:100%;border:none;display:block;" alt="">
+                    <div class="button">
+                        <input type="submit" value="View Students" class="btn">
+                        <input type="submit" value="Delete" class="btn">
+                    </div>
+                </div>
+                <div class="net">
+                    <span class="material-icons-sharp">book</span>
+                    <h3>Department of Law</h3>
+                    <img src="./images/dept3.png" style="height:auto;max-width:100%;border:none;display:block;" alt="">
+                    <div class="button">
+                        <input type="submit" value="View Students" class="btn">
+                        <input type="submit" value="Delete" class="btn">
+                    </div>
+                </div>
+                
+            </div>
+            <br/>
+            <br/>
+            <div id="main">
+                <a href="#my_popup12" class="btn"> Manage Business </a>
+                <a id="my_popup12" href="#" class="popup"></a>
+                <div class="popup">
+                    <div class="change-password-container">
+                        <form action="">
+                            <h2>Add Business </h2>
+                            <p class="text-muted">To add a new business partner</p>
+                            <div class="box">
+                                <label>Name : </label>
+                                <input type="text" id="pname">
+                            </div>
+    
+                            <div class="box">
+                                <label> Description :  </label>  
+                                <textarea value="description">
+                                </textarea>
+                            </div>
+                            <div class="button">
+                                <input type="submit" value="Save" class="btn">
+                                <a class="close x" href="#">x</a>
+                                <a class="close word" href="#">Close</a>
+                            </div>
+                    </form>
+                </div>    
+                </div>
+          </div>
+          <br/>
+        
+        
+         <div class="subjects">
+            <div class="net">
+                <span class="material-icons-sharp">book</span>
+                <h3>Subway</h3>
+                <img src="./images/b1.jpg" style="height:auto;max-width:100%;border:none;display:block;" alt="">
+                <div class="button">
+                    <input type="submit" value="View Business" class="btn">
+                    <input type="submit" value="Delete" class="btn">
+                </div>
+            </div>
+            <div class="net">
+                <span class="material-icons-sharp">book</span>
+                <h3>Walmart</h3>
+                <img src="./images/b3.jpg" style="height:auto;max-width:100%;border:none;display:block;" alt="">
+                <div class="button">
+                    <input type="submit" value="View Business" class="btn">
+                    <input type="submit" value="Delete" class="btn">
+                </div>
+            </div>
+            
+            <div class="net">
+                <span class="material-icons-sharp">book</span>
+                <h3>Chick-fil-A </h3>
+                <img src="./images/b2.jpg" style="height:auto;max-width:100%;border:none;display:block;" alt="">
+                <div class="button">
+                    <input type="submit" value="View Business" class="btn">
+                    <input type="submit" value="Delete" class="btn">
+                </div>
+            </div>
+            <div class="net">
+                <span class="material-icons-sharp">book</span>
+                <h3>Ulta Beauty</h3>
+                <img src="./images/b4.webp" style="height:auto;max-width:100%;border:none;display:block;" alt="">
+                <div class="button">
+                    <input type="submit" value="View Business" class="btn">
+                    <input type="submit" value="Delete" class="btn">
+                </div>
+            </div>
+          
+
+            </div>
+            <div id="main">
+        
+                <br/>
+                <br/>
+                <a href="#my_popup13" class="btn"> Manage Schools </a>
+                <a id="my_popup13" href="#" class="popup"></a>
+                <div class="popup">
+                    <div class="change-password-container">
+                        <form action="">
+                            <h2>Add Schools </h2>
+                            <p class="text-muted">To add a new school</p>
+                            <div class="box">
+                                <label>Name : </label>
+                                <input type="text" id="pname">
+                            </div>
+    
+                            <div class="box">
+                                <label> Description :  </label>  
+                                <textarea value="description">
+                                </textarea>
+                            </div>
+                            <div class="button">
+                                <input type="submit" value="Save" class="btn">
+                                <a class="close x" href="#">x</a>
+                                <a class="close word" href="#">Close</a>
+                            </div>
+                    </form>
+                </div>    
+                </div>
+          </div>
+          <br/>
+        
+        
+         <div class="subjects">
+            <div class="net">
+                <span class="material-icons-sharp">book</span>
+                <h3>UTA</h3>
+                <img src="./images/utalogo.png" style="height:auto;max-width:100%;border:none;display:block;" alt="">
+                <div class="button">
+                    <input type="submit" value="View School" class="btn">
+                    <input type="submit" value="Delete" class="btn">
+                </div>
+            </div>
+            <div class="net">
+                <span class="material-icons-sharp">book</span>
+                <h3>UTD</h3>
+                <img src="./images/utdlogo.png" style="height:auto;max-width:100%;border:none;display:block;" alt="">
+                <div class="button">
+                    <input type="submit" value="View School" class="btn">
+                    <input type="submit" value="Delete" class="btn">
+                </div>
+            </div>
+            
+    
+            </div>
+
+        </main>
+        
+
+        <div class="right">
+            <div class="announcements">
+                <a href="./images/sales1.png" class="btn">GENERATE REPORT</a></div><br>
+            </div> 
+        </div>
+    </div>
+
+    
+</body>
+</html>

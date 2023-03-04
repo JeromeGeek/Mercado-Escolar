@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Dashboard</title>
+    <link rel="shortcut icon" href="./images/logo.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo" title="Mercado Escolar">
+    <a href="/index.html">       <img src="./images/logo.png" alt=""> 
+        </div>
+        <div class="navbar">
+            <a href="#" class="active">
+                <span class="material-icons-sharp">home</span>
+                <h3>Home</h3>
+            </a>
+            <a href="password.html">
+                <span class="material-icons-sharp">password</span>
+                <h3>Change Password</h3>
+            </a>
+            
+            <a href="#">
+                <span class="material-icons-sharp" onclick="">logout</span>
+                <h3>Logout</h3>
+            </a>
+        </div>
+        <div id="profile-btn">
+            <span class="material-icons-sharp">person</span>
+        </div>
+        <div class="theme-toggler">
+            <span class="material-icons-sharp active">light_mode</span>
+            <span class="material-icons-sharp">dark_mode</span>
+        </div>
+        
+    </header>
+    <div class="container">
+        <aside>
+            <div class="profile">
+                <div class="top">
+                    <div class="profile-photo">
+                        <img src="./images/profile-1.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <p>Hey, <b>Alex</b> </p>
+                        <small class="text-muted">12102030</small>
+                    </div>
+                </div>
+                <div class="about">
+                    <h5>Course</h5>
+                    <p>BTech. Computer Science & Engineering</p>
+                    <h5>DOB</h5>
+                    <p>29-Feb-2020</p>
+                    <h5>Contact</h5>
+                    <p>1234567890</p>
+                    <h5>Email</h5>
+                    <p>unknown@gmail.com</p>
+                    <h5>Address</h5>
+                    <p>Ghost town Road, New York, America</p>
+                </div>
+            </div>
+        </aside>
+
+        <main>
+            <h2>Welcome back, Alex!</h2>
+            <br/>
+            
+            <div id="main">
+ 
+            <a href="#my_popup" class="btn"> PRODUCTS </a>
+                    <a id="my_popup" href="#" class="popup"></a>
+                    <div class="popup">
+                        <div class="change-password-container">
+                            <form action="">
+                                <h2>Add New Product</h2>
+                                <p class="text-muted">To add a product to sell</p>
+                                <div class="box">
+                                    <label>Product : </label>
+                                    <input type="text" id="pname">
+                                </div>
+                                <div class="box">
+                                    <label> Type : </label>   
+                                    <select>  
+                                        <option value="Type">Product Type</option>  
+                                        <option value="Text Books">Text Books</option>  
+                                        <option value="Electronics">Electronics</option>  
+                                        <option value="Furniture">Furniture</option>  
+                                        <option value="Sports Accessory">Sports Accessory</option>  
+                                        <option value="Camera and Lens">Camera and Lens</option>  
+                                    </select>  
+                                </div>  
+                                <div class="box">
+                                    <label> Quantity :  </label>
+                                    <select>  
+                                        <option value="Select">Select</option>  
+                                        <option value="1">1</option>    
+                                        <option value="2">2</option>    
+                                        <option value="3">3</option>    
+                                        <option value="4">4</option>    
+                                        <option value="5">5</option>    
+                                    </select>  
+                                </div>
+                                <div class="box">
+                                    <label> Price :  </label>    
+                                    <input type="text" name="price" size="10">
+                                </div>
+                                <div class="box">
+                                    <label> Description :  </label>  
+                                    <textarea value="description">
+                                    </textarea>
+                                </div>
+                                <div class="button">
+                                    <input type="submit" value="Save" class="btn">
+                                    <a class="close x" href="#">x</a>
+                                    <a class="close word" href="#">Close</a>
+                                </div>
+                        </form>
+                    </div>    
+                    </div>
+              </div>
+            <div class="subjects">
+                <div class="net">
+                    <span class="material-icons-sharp">book</span>
+                    <h3>Hercules Defender</h3>
+                    <img src="./images/cycle.jpg" style="height:auto;max-width:100%;border:none;display:block;" alt="">
+                    <div class="button">
+                        <input type="submit" value="Add to Cart" class="btn" onclick="document.location='/pages/cart.html'">
+                        <input type="submit" value="Buy" class="btn">
+                    </div>
+                </div>
+                <div class="net">
+                    <span class="material-icons-sharp">book</span>
+                    <h3>Logitech Keyboard</h3>
+                    <img src="./images/keyboard.jpg" style="height:auto;max-width:100%;border:none;display:block;" alt="">
+                    <div class="button">
+                        <input type="submit" value="Add to Cart" class="btn" onclick="document.location='/pages/cart.html'">
+                        <input type="submit" value="Buy" class="btn">
+                    </div>
+                </div>
+                <div class="cs">
+                    <span class="material-icons-sharp">phone</span>
+                    <h3>iPhone 13 Pro</h3>
+                    <img src="./images/Iphone13.jpg" style="height:auto;max-width:100%;border:none;display:block;" alt="">
+                    <div class="button">
+                        <input type="submit" value="Add to Cart" class="btn" onclick="document.location='/pages/cart.html'">
+                        <input type="submit" value="Buy" class="btn">
+                    </div>
+                </div>
+                <div class="net">
+                    <span class="material-icons-sharp">book</span>
+                    <h3>Manchester Utd Jersey</h3>
+                    <img src="./images/jersey.jpg" style="height:auto;max-width:100%;border:none;display:block;" alt="">
+                    <div class="button">
+                        <input type="submit" value="Add to Cart" class="btn" onclick="document.location='/pages/cart.html'">
+                        <input type="submit" value="Buy" class="btn">
+                    </div>
+                </div>
+                <div class="net">
+                    <span class="material-icons-sharp">book</span>
+                    <h3>Introduction to Algorithm</h3>
+                    <img src="./images/Alg.jpg" style="height:auto;max-width:100%;border:none;display:block;" alt="">
+                    <div class="button">
+                        <input type="submit" value="Add to Cart" class="btn" onclick="document.location='/pages/cart.html'">
+                        <input type="submit" value="Buy" class="btn">
+                    </div>
+                </div>
+                <div class="eg">
+                    <span class="material-icons-sharp">book</span>
+                    <h3>Three Men in Boat</h3>
+                    <img src="./images/TMIB.jpg" style="height:auto;max-width:100%;border:none;display:block;" alt="">
+                    <div class="button">
+                        <input type="submit" value="Add to Cart" class="btn" onclick="document.location='/pages/cart.html'">
+                        <input type="submit" value="Buy" class="btn">
+                    </div>
+                </div>
+                <div class="mth">
+                    <span class="material-icons-sharp">computer</span>
+                    <h3>HP Laptop</h3>
+                    <img src="./images/HP.jpg" style="height:auto;max-width:100%;border:none;display:block;" alt="">
+                    <div class="button">
+                        <input type="submit" value="Add to Cart" class="btn"  onclick="document.location='/pages/cart.html'">
+                        <input type="submit" value="Buy" class="btn">
+                    </div>
+                </div>
+               
+                <div class="cg">
+                    <span class="material-icons-sharp">phone</span>
+                    <h3>Samsung S22</h3>
+                    <img src="./images/S22.png" style="height:auto;max-width:100%;border:none;display:block;" alt="">
+                    <div class="button">
+                        <input type="submit" value="Add to Cart" class="btn" onclick="document.location='/pages/cart.html'" >
+                        <input type="submit" value="Buy" class="btn">
+                    </div>
+                </div>
+                <div class="net">
+                    <span class="material-icons-sharp">book</span>
+                    <h3>Voranado Fan</h3>
+                    <img src="./images/fan.jpeg" style="height:auto;max-width:100%;border:none;display:block;" alt="">
+                    <div class="button">
+                        <input type="submit" value="Add to Cart" class="btn" onclick="document.location='/pages/cart.html'">
+                        <input type="submit" value="Buy" class="btn">
+                    </div>
+                </div>
+                <div class="net">
+                    <span class="material-icons-sharp">book</span>
+                    <h3>Nike Jordans</h3>
+                    <img src="./images/shoe.webp" style="height:auto;max-width:100%;border:none;display:block;" alt="">
+                    <div class="button">
+                        <input type="submit" value="Add to Cart" class="btn" onclick="document.location='/pages/cart.html'">
+                        <input type="submit" value="Buy" class="btn">
+                    </div>
+                </div>
+             
+            </div>
+
+        </main>
+
+        <div class="right">
+            <div class="announcements">
+    
+                <a href="#my_popup1" class="btn">CLUBS</a>
+                <br/>
+                <br/>
+                <a id="my_popup1" href="#" class="popup1"></a>
+            <div class="popup1">
+                    <div class="subjects">
+                        <div class="eg">
+                            <span class="material-icons-sharp">book</span>
+                            <h2>Academics Club</h2>
+                            <div class="button">
+                                <input type="submit" value="Join" class="btn">
+                                <input type="submit" value="Leave" class="btn">
+                            </div>
+                        </div>
+                        <div class="mth">
+                            <span class="material-icons-sharp">computer</span>
+                            <h2>Electronics club</h2>
+                            <div class="button">
+                                <input type="submit" value="Join" class="btn">
+                                <input type="submit" value="Leave" class="btn">
+                            </div>
+                        </div>
+                        <div class="cs">
+                            <span class="material-icons-sharp">camera</span>
+                            <h2 allign="middle">Photography club</h2>
+                            <div class="button">
+                                <input type="submit" value="Join" class="btn">
+                                <input type="submit" value="Leave" class="btn">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="close x" href="#">x</a>
+                    <a class="close word" href="#">Close</a>
+            </div>
+                <div class="updates">
+                    <div class="message">
+                        <p> <b>Academic Club</b> A place of gathering for all Book Enthusiasts </p>
+                    </div>
+                    <div class="message">
+                        <p> <b>Sports Club</b> A place of gathering for all Sports Enthusiasts.</p>
+                    </div>
+                    <div class="message">
+                        <p> <b>Photography Club</b> A place of gathering for all Photography Enthusiasts </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="leaves">
+                <a href="#my_popup2" class="btn">POST</a></div><br>
+                <a id="my_popup2" href="#" class="popup2"></a>
+            <div class="popup2">
+                <div class="change-password-container">
+                    <form action="">
+                        <h2>NEW POST</h2>
+                        <p class="text-muted">To add a product to sell</p>
+                        <div class="box">
+                            <label>POST : </label>
+                            <input type="text" id="pname">
+                        </div>
+                        <div class="box">
+                             <label> Description :  </label>  
+                            <textarea value="description"></textarea>
+                        </div>
+                        <div class="button">
+                            <input type="submit" value="Post" class="btn">
+                            <input type="submit" value="Delete" class="btn">
+                        </div>
+                        <a class="close x" href="#">x</a>
+                        <a class="close word" href="#">Close</a>
+                    </form>
+                </div>
+            </div>
+            <div class="leaves">
+                <div class="teacher">
+                    <div class="profile-photo"><img src="./images/profile-2.jpeg" alt=""></div>
+                    <div class="info">
+                        <h3>Mac Book Pro on sale</h3>
+                        <small class="text-muted">Ads</small>
+                    </div>
+                </div>
+                <div class="teacher">
+                    <div class="profile-photo"><img src="./images/profile-3.jpg" alt=""></div>
+                    <div class="info">
+                        <h3>Iphone 14 Pro on Sale</h3>
+                        <small class="text-muted">Ads</small>
+                    </div>
+                </div>
+                <div class="teacher">
+                    <div class="profile-photo"><img src="./images/profile-4.jpg" alt=""></div>
+                    <div class="info">
+                        <h3>Study Tables on Sale! Hurry up! Grab it By 14th Oct</h3>
+                        <small class="text-muted"> Ads</small>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+</body>
+</html>
